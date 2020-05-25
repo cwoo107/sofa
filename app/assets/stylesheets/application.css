@@ -35,6 +35,10 @@ h2{
     font-weight: 500;
 }
 
+a {
+    color: #E00106;
+}
+
 
 #main-header {
     margin-top: -15px;
