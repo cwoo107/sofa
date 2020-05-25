@@ -17,7 +17,7 @@
 body {
     color: #1d2d35 !important;
     font-family: "Avenir Next" !important;
-    font-size: 22px !important;
+    font-size: 22px;
 }
 
 
@@ -37,6 +37,7 @@ h2{
 
 
 #main-header {
+    margin-top: -15px;
     height: 800px;
     background: url('IMG_5489.jpg' ) no-repeat center;
     background-size: cover;
@@ -45,4 +46,9 @@ h2{
 
 #main-header .my-4 {
     background-color:white;
+}
+
+#about-image {
+    background: url('IMG_5550.jpg' ) no-repeat center;
+    background-size: cover;
 }
