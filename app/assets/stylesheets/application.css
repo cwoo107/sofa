@@ -17,11 +17,12 @@
 body {
     color: #1d2d35 !important;
     font-family: "Avenir Next" !important;
+    font-size: 22px !important;
 }
 
 
 p {
-    font-size: 22px;
+    font-size: 1.5rem;
 }
 
 h1 {
