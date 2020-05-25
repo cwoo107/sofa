@@ -17,12 +17,12 @@
 body {
     color: #1d2d35 !important;
     font-family: "Avenir Next" !important;
-    font-size: 22px;
+    font-size: 1.5em;
 }
 
 
 p {
-    font-size: 1.5rem;
+    font-size: 1.5em;
 }
 
 h1 {
@@ -55,4 +55,8 @@ h2{
 #about-image {
     background: url('IMG_5550.jpg' ) no-repeat center;
     background-size: cover;
+}
+
+.navbar-sticky-bottom {
+    margin-top: 50px;
 }
