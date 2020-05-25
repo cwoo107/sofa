@@ -64,3 +64,7 @@ h2{
 .navbar-sticky-bottom {
     margin-top: 50px;
 }
+
+.navbar-brand {
+    font-size: 2rem !important;
+}
