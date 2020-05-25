@@ -35,8 +35,8 @@ h2{
     font-weight: 500;
 }
 
-a {
-    color: #E00106;
+#red-link a:link {
+    color: whitesmoke;
 }
 
 
