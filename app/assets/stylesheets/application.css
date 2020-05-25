@@ -17,15 +17,16 @@
 body {
     color: #1d2d35 !important;
     font-family: "Avenir Next" !important;
-    font-size: 1.5em;
+    font-size: 1.5rem;
+    background-color: whitesmoke;
 }
 
 nav {
-    font-size: 1.5em;
+    font-size: 1.5rem;
 }
 
 p {
-    font-size: 1.5em;
+    font-size: 1.5rem;
 }
 
 h1 {
