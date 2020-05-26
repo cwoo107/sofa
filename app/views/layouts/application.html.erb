@@ -28,40 +28,20 @@
     <div class="form-inline my-6 my-lg-0">
       <div class="d-lg-none" style="font-size: 5rem">
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item ">
-            <a class="nav-link" href="/">Menu</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/our-story">Our Story</a>
-          </li>
-          <li class="nav-item ">
-            <a class="nav-link" href="/">Pick-Up</a>
-          </li>
-          <li class="nav-item ">
-            <a class="nav-link" href="/">Delivery</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/">Shop</a>
-          </li>
+          <% @cms_site.pages.order(:position).where.not(:label => 'Home').each do |page|  %>
+            <li class="nav-item">
+              <a class="nav-link" href="<%= page.slug %>"><%=  page.label %></a>
+            </li>
+          <% end %>
         </ul>
       </div>
       <div class="d-none d-lg-block">
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item ">
-            <a class="nav-link" href="/">Menu</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/our-story">Our Story</a>
-          </li>
-          <li class="nav-item ">
-            <a class="nav-link" href="/">Pick-Up</a>
-          </li>
-          <li class="nav-item ">
-            <a class="nav-link" href="/">Delivery</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/">Shop</a>
-          </li>
+          <% @cms_site.pages.order(:position).where.not(:label => 'Home').each do |page|  %>
+            <li class="nav-item">
+              <a class="nav-link" href="<%= page.slug %>"><%=  page.label %></a>
+            </li>
+          <% end %>
         </ul>
       </div>
     </div>
