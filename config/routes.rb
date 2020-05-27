@@ -1,8 +1,4 @@
 Rails.application.routes.draw do
-  namespace :admin do
-    resources :entrees
-  end
-
   resources :newsletters
   comfy_route :cms_admin, path: "/admin"
   # Ensure that this route is defined last
