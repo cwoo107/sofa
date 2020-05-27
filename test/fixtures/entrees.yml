@@ -1,0 +1,6 @@
+default:
+  name: default name
+  category: default category
+  price: default price
+  description: default description
+  available: default available

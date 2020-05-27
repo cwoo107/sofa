@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_05_25_145725) do
+ActiveRecord::Schema.define(version: 2020_05_27_000418) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -154,6 +154,16 @@ ActiveRecord::Schema.define(version: 2020_05_25_145725) do
     t.index ["is_published"], name: "index_comfy_cms_translations_on_is_published"
     t.index ["locale"], name: "index_comfy_cms_translations_on_locale"
     t.index ["page_id"], name: "index_comfy_cms_translations_on_page_id"
+  end
+
+  create_table "entrees", force: :cascade do |t|
+    t.string "name"
+    t.string "category"
+    t.string "price"
+    t.text "description"
+    t.boolean "available"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
   create_table "newsletters", force: :cascade do |t|
