@@ -16,7 +16,7 @@
 
 body {
     color: #1d2d35 !important;
-    font-family: "Avenir Next" !important;
+    font-family: "Avenir Next", "Avenir", "Helvetica Neue", Sans-Serif !important;
     font-size: 1.7rem;
     background-color: whitesmoke;
 }
@@ -27,27 +27,32 @@ nav {
 
 p {
     font-size: 1.7rem;
+    font-family: "Avenir Next", "Avenir", "Helvetica Neue", Sans-Serif !important;
 }
 
 h1 {
     font-size: 8rem !important;
     font-weight: 800;
+    font-family: "Roboto", "Avenir", "Helvetica Neue", Sans-Serif !important;
 }
 
 h2{
     font-size: 4rem !important;
     font-weight: 600;
+    font-family: "Roboto", "Avenir", "Helvetica Neue", Sans-Serif !important;
 }
 
 h3 {
     font-size: 3rem !important;
     font-weight: 400;
+    font-family: "Avenir Next", "Avenir", "Helvetica Neue", Sans-Serif !important;
 }
 
 h4 {
     padding-top: -15px;
     font-size: 2.3rem !important;
     font-weight: 200;
+    font-family: "Avenir Next", "Avenir", "Helvetica Neue", Sans-Serif !important;
 }
 
 #red-link a:link {
@@ -74,7 +79,7 @@ h4 {
 }
 
 #sub-header {
-    color: #dc3545;
+    color: #ee3e2c;
 
 }
 
@@ -94,4 +99,44 @@ h4 {
 }
 .card:hover {
     box-shadow: 0 3px 9px rgba(0,0,0,0.25), 0 3px 6px rgba(0,0,0,0.22);
+}
+
+
+
+.btn-danger {
+    background-color: #ee3e2c !important;
+    border-color: #ee3e2c;
+}
+.btn-danger:focus {
+    color: #333;
+    background-color: #D02411 !important;
+    border-color: #D02411;
+}
+.btn-danger:hover {
+    color: #333;
+    background-color: #D02411 !important;
+    border-color: #D02411;
+}
+.btn-danger:active {
+    color: #333;
+    background-color: #ee3e2c !important;
+    border-color: #D02411;
+}
+
+
+.background-effect {
+    background-color: #228250;
+    margin-top:9rem;
+    margin-bottom:9rem;
+    color: whitesmoke;
+    border: 1px solid transparent !important;
+    padding-bottom: 2em;
+    padding-top: 3em;
+    border: 1px solid transparent !important;
+    transform: rotate(-5deg) skew(-5deg);
+}
+.unskew {
+    margin-top: 3em;
+    transform: rotate(5deg) skew(5deg);
+    border: 1px solid transparent !important;
 }
