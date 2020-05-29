@@ -26,7 +26,7 @@ nav {
 }
 
 p {
-    font-size: 1.7rem;
+    font-size: 1.9rem;
     font-family: "Avenir Next", "Avenir", "Helvetica Neue", Sans-Serif !important;
 }
 
@@ -137,6 +137,7 @@ h4 {
 }
 .unskew {
     margin-top: 3em;
+    margin-bottom: 1em;
     transform: rotate(5deg) skew(5deg);
     border: 1px solid transparent !important;
 }
