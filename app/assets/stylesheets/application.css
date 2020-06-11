@@ -104,6 +104,14 @@ h4 {
     color: #f47473 !important;
 }
 
+.green {
+    font-weight: 500;
+    color: #248351 !important;
+}
+
+.green:hover {
+    color: #91c1a8 !important;
+}
 .card {
     margin-top: 15px;
     background-color: #fbfbf8;
