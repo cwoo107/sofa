@@ -137,7 +137,7 @@ h4 {
 }
 
 
-.background-effect {
+.unused-background-effect {
     background-color: #228250;
     margin-top:5.5rem;
     margin-bottom:5.5rem;
@@ -148,7 +148,7 @@ h4 {
     border: 1px solid #228250 !important;
     transform: rotate(-5deg) skew(-5deg);
 }
-.unskew {
+.unused-unskew {
     margin-top: 3em;
     margin-bottom: 1em;
     transform: rotate(5deg) skew(5deg);
