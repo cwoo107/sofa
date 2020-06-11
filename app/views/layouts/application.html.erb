@@ -15,7 +15,12 @@
 </head>
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <%= link_to image_tag("motif_xingones-03.jpg", height: "auto", width: '75px', :style => 'margin-top: -15px') %>
+  <div class="d-lg-none" >
+  <%= link_to image_tag("motif_xingones-03.jpg", height: "auto", width: '150px', :style => 'margin-top: -15px') %>
+  </div>
+  <div class="d-none d-lg-block" >
+    <%= link_to image_tag("motif_xingones-03.jpg", height: "auto", width: '75px', :style => 'margin-top: -15px') %>
+  </div>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <h2 class="navbar-toggler-icon"></h2>
   </button>
