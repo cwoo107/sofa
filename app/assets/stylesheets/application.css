@@ -33,13 +33,13 @@ p {
 h1 {
     font-size: 8rem !important;
     font-weight: 800;
-    font-family: "Roboto", "Avenir", "Helvetica Neue", Sans-Serif !important;
+    font-family:  "Roboto Condensed", "Roboto", "Avenir", "Helvetica Neue", Sans-Serif !important;
 }
 
 h2{
     font-size: 4rem !important;
     font-weight: 600;
-    font-family: "Roboto", "Avenir", "Helvetica Neue", Sans-Serif !important;
+    font-family: "Roboto Condensed", "Roboto", "Avenir", "Helvetica Neue", Sans-Serif !important;
 }
 
 h3 {
@@ -91,6 +91,19 @@ h4 {
     font-size: 2rem !important;
 }
 
+.navbar-nav {
+    font-family: "Roboto Condensed", "Roboto", "Avenir", "Helvetica Neue", Sans-Serif !important;
+}
+
+.nav-link {
+    font-weight: 500;
+    color: #ee3e2c !important;
+}
+
+.nav-link:hover {
+    color: #f47473 !important;
+}
+
 .card {
     margin-top: 15px;
     background-color: #fbfbf8;
@@ -129,10 +142,10 @@ h4 {
     margin-top:5.5rem;
     margin-bottom:5.5rem;
     color: whitesmoke;
-    border: 1px solid transparent !important;
+    border: 1px solid #228250 !important;
     padding-bottom: 2em;
     padding-top: 3em;
-    border: 1px solid transparent !important;
+    border: 1px solid #228250 !important;
     transform: rotate(-5deg) skew(-5deg);
 }
 .unskew {
