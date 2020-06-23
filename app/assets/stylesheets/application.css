@@ -61,10 +61,10 @@ h4 {
 
 
 #main-header {
-    margin-top: -15px;
+    margin-top: -16px;
     min-height: 800px;
     width: auto;
-    background: url('IMG_5489-2.jpeg' ) no-repeat center;
+    background: #ee3e2c;
     background-size: cover;
     color: whitesmoke;
 }
@@ -147,6 +147,20 @@ h4 {
     color: #333;
     background-color: #ee3e2c !important;
     border-color: #D02411;
+}
+
+.btn-outline-light{
+    border-width: 10px !important;
+    font-family: "Roboto Condensed", "Roboto", "Avenir", "Helvetica Neue", Sans-Serif !important;
+}
+.btn-outline-light:focus {
+    color: #ee3e2c !important;
+}
+.btn-outline-light:hover {
+    color: #ee3e2c !important;
+}
+.btn-outline-light:active {
+    color: #ee3e2c !important;
 }
 
 
