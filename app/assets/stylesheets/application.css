@@ -22,6 +22,7 @@ body {
 }
 
 nav {
+    position: absolute;
     font-size: 1.5rem;
 }
 
@@ -180,4 +181,126 @@ h4 {
     margin-bottom: 1em;
     transform: rotate(5deg) skew(5deg);
     border: 1px solid transparent !important;
+}
+
+@keyframes animate {
+    0%{
+        transform: translateY(-1000px) rotate(720deg);
+        opacity: 1;
+        border-radius: 0;
+
+    }
+    100%{
+        transform: translateY(0) rotate(0deg);
+        opacity: 0;
+        border-radius: 50%;
+    }
+}
+
+.background {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 50px;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    background: transparent;
+}
+.background li {
+    position: absolute;
+    display: block;
+    list-style: none;
+    width: 20px;
+    height: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    animation: animate 19s linear infinite;
+}
+
+
+
+
+.background li:nth-child(0) {
+    left: 42%;
+    width: 184px;
+    height: 184px;
+    bottom: -184px;
+    animation-delay: 1s;
+}
+.background li:nth-child(1) {
+    left: 57%;
+    width: 139px;
+    height: 139px;
+    bottom: -139px;
+    animation-delay: 1s;
+}
+.background li:nth-child(2) {
+    left: 3%;
+    width: 117px;
+    height: 117px;
+    bottom: -117px;
+    animation-delay: 1s;
+}
+.background li:nth-child(3) {
+    left: 16%;
+    width: 184px;
+    height: 184px;
+    bottom: -184px;
+    animation-delay: 2s;
+}
+.background li:nth-child(4) {
+    left: 71%;
+    width: 104px;
+    height: 104px;
+    bottom: -104px;
+    animation-delay: 10s;
+}
+.background li:nth-child(5) {
+    left: 71%;
+    width: 162px;
+    height: 162px;
+    bottom: -162px;
+    animation-delay: 15s;
+}
+.background li:nth-child(6) {
+    left: 29%;
+    width: 153px;
+    height: 153px;
+    bottom: -153px;
+    animation-delay: 25s;
+}
+.background li:nth-child(7) {
+    left: 24%;
+    width: 117px;
+    height: 117px;
+    bottom: -117px;
+    animation-delay: 19s;
+}
+.background li:nth-child(8) {
+    left: 50%;
+    width: 190px;
+    height: 190px;
+    bottom: -190px;
+    animation-delay: 38s;
+}
+.background li:nth-child(9) {
+    left: 50%;
+    width: 153px;
+    height: 153px;
+    bottom: -153px;
+    animation-delay: 13s;
+}
+.background li:nth-child(10) {
+    left: 47%;
+    width: 156px;
+    height: 156px;
+    bottom: -156px;
+    animation-delay: 42s;
+}
+.background li:nth-child(11) {
+    left: 40%;
+    width: 137px;
+    height: 137px;
+    bottom: -137px;
+    animation-delay: 25s;
 }
