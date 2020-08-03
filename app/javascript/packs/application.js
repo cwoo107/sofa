@@ -8,6 +8,7 @@ require("turbolinks").start()
 require("@rails/activestorage").start()
 require("channels")
 require('packs/bootstrap.js')
+require('packs/popper.min.js')
 
 
 
